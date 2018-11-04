@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C++ Express 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PbniRegex", "PbniRegex.vcxproj", "{33C1C843-57F6-4411-ABA9-58612B39F11F}"
 EndProject
 Global
@@ -17,6 +19,7 @@ Global
 		Release PB11.5|Win32 = Release PB11.5|Win32
 		Release PB11|Win32 = Release PB11|Win32
 		Release PB12.0|Win32 = Release PB12.0|Win32
+		Release PB2017|Win32 = Release PB2017|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{33C1C843-57F6-4411-ABA9-58612B39F11F}.Debug PB09|Win32.ActiveCfg = Debug PB09|Win32
@@ -43,9 +46,14 @@ Global
 		{33C1C843-57F6-4411-ABA9-58612B39F11F}.Release PB11|Win32.Build.0 = Release PB11|Win32
 		{33C1C843-57F6-4411-ABA9-58612B39F11F}.Release PB12.0|Win32.ActiveCfg = Release PB12.0|Win32
 		{33C1C843-57F6-4411-ABA9-58612B39F11F}.Release PB12.0|Win32.Build.0 = Release PB12.0|Win32
+		{33C1C843-57F6-4411-ABA9-58612B39F11F}.Release PB2017|Win32.ActiveCfg = Release PB2017|Win32
+		{33C1C843-57F6-4411-ABA9-58612B39F11F}.Release PB2017|Win32.Build.0 = Release PB2017|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98CA6BB3-DEE1-473A-8A62-517E83D61BE0}
 	EndGlobalSection
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
